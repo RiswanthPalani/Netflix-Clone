@@ -1,0 +1,291 @@
+body {
+  background-color: rgb(44, 42, 42);
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+    gap:50%;
+   
+}
+
+/* header button {
+     height:30px;
+     padding-left: 20px;
+     padding-right:20px;
+     font-size: 20px;
+     background-color: rgba(255, 0, 0, 0.933);
+     color:white;
+     border:none;
+     box-sizing: border-box;
+     border-radius: 12%;
+} */
+header button {
+    font-size: 15px !important; 
+    font-weight: 500 !important;
+    z-index: 1;
+}
+header img {
+    width:170px;
+    z-index: 1;
+
+}
+.hero {
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c0b69670-89a3-48ca-877f-45ba7a60c16f/2642e08e-4202-490e-8e93-aff04881ee8a/IN-en-20240212-popsignuptwoweeks-perspective_alpha_website_medium.jpg"); */
+    height:695px;
+    background-color: black;
+    margin-bottom:10px;
+}
+.background-with-transparency {
+    
+    position: relative;
+  }
+  
+  .background-with-transparency::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/c0b69670-89a3-48ca-877f-45ba7a60c16f/2642e08e-4202-490e-8e93-aff04881ee8a/IN-en-20240212-popsignuptwoweeks-perspective_alpha_website_medium.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity value as needed (0.7 in this case) */
+  }
+  
+
+  
+#content {
+    width:100%;
+    position: relative;
+    color:white; 
+    display: flex;
+    height: 70%;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+    text-align: center;
+   /* z-index: 1; */
+   
+}  
+#content h1 {
+    font-weight:bold;
+   font-size: 50px;
+   
+  
+}
+.hero button {
+    background-color: red !important;
+}
+
+#content input{
+    background-color: black;
+    border:none;
+    border:1px solid white;
+    color:white;
+    height: 50px;
+    width:300px;
+    padding-left: 10px;
+}
+  .signin {
+    display: flex;
+    gap:10px;
+  }
+.signin button {
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+.hero button:hover {
+    background-color: rgb(152, 17, 17) !important;
+    color:rgb(207, 203, 203) !important;
+  }
+  #devices {
+    background-color: black;
+    height: 600px;
+  }
+  .devices h1 {
+       color:white !important;
+      
+  }
+  .devices p{
+    color: white !important;
+  }
+
+  .video {
+   position: relative;
+   top:-270px;
+   left:13%;
+   width:72%;
+  
+    
+   }
+   .devices img {
+   z-index: 1 !important;
+   }
+   .flex-container {
+      
+       height: 600px;
+       display: flex !important;
+     
+       align-items: center !important;
+       justify-content: center;
+   }
+   .device_centre {
+ 
+    height: 500px;
+   }
+   #devices {
+    margin-bottom: 10px;
+  }
+  #download {
+   background-color: black;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+  }
+   .strangerthingimage {
+   
+    width:517.92px;
+    height:391.9px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+    
+   }
+   /* .strangerthingimage img {
+    width:517px;
+    height:387px;
+   } */
+   .downloadcontent {
+   
+    width:523.2px;
+    height:224px;
+   }
+   .downloadcontent h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color:white;
+   }
+   .downloadcontent h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color:white;
+   }
+   #boximage {
+    width:337.51px;
+    height: 95.2px;
+   background-color: black;
+   border: 1px solid white;
+   border-bottom-left-radius: 12px;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   #boximage img {
+    height: 80px;
+   }
+   #boximage .name p{
+    font-size: 16px;
+    font-weight: 500px;
+    color:white;
+   }
+   #boximage .name {
+   
+    width:194.89px;
+    height:38.4px;
+   }
+   .icon {
+    width:48px;
+    height: 60px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    background-size: cover;
+    background-position: center ;
+   }
+   #four {
+    background-color: red;
+    height:570px;
+   }
+   #write h2 {
+     color:white;
+   }
+   #write p{
+    color:white;
+   }
+   #questions {
+    height:620px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    padding-top: 30px;
+    color:white;
+   
+    
+   }
+   #questions .container {
+    width: 75%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+   
+   }
+   #questions .container div {
+    background-color: rgb(44, 42, 42);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   display: flex;
+   justify-content: space-between;
+   
+   }
+   .question-container>p{
+    font-size: 24px;
+    font-weight: 500;
+   }
+   .question-container button {
+    font-size: 24px;
+    
+   }
+   
+   .accordion-item {
+    width:75% !important;
+    border: none;
+    margin-bottom: 10px;
+   }
+   .accordion-header button{
+    background-color:rgb(44, 42, 42) !important;
+    color:white;
+    outline: none !important;
+   }
+   .accordion-header button:hover {
+   
+    background-color: rgb(87, 85, 85) !important;
+    color:rgb(207, 203, 203) !important;
+  }
+  .accordion-body {
+    background-color: rgb(44, 42, 42) !important ;
+    color:white;
+  }
+   
+
+@media (max-width:500px){
+   .signin {
+    display: flex;
+    flex-direction: column;
+   }
+}
